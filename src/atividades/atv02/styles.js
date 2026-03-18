@@ -9,6 +9,9 @@ const styles = StyleSheet.create({
         borderRadius: 10, // borda curvada
         padding: 8, 
         alignItems: 'center', // alinhamento horizontal - flexDirection collumn
+        //flexDirection: "row", 
+        //justifyContent: 'space-between',
+        //flexWrap: 'wrap',
     }, 
     titulo: {
         fontSize: RFPercentage(4), // tamanho da fonte
@@ -24,18 +27,7 @@ const styles = StyleSheet.create({
         borderColor: 'darkslategrey', // cor da borda 
         borderRadius: 20, // arrendondar borda
     }, 
-    imagem: {
-        // height: RFPercentage(16), 
-        // width: RFPercentage(48),  
-        width: '90%', 
-        resizeMode: 'contain', 
-        // filter: 'grayscale(80%)', 
-        // filter: 'sepia(80%)', 
-        // filter: 'saturate(10%)', 
-        filter: 'brightness(30%)', 
-        // filter: 'contrast(50%)', 
-        // filter: 'invert(100%)', 
-    }, 
+   
 });
 
 export default styles;
