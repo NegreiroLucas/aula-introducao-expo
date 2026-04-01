@@ -15,11 +15,7 @@ function Atv3() {
     }
     function Zerar(){
         setNumero(0);
-    }
-
- 
-
-   
+    }   
 
     return (
         <View style={styles.container}>
